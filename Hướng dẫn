@@ -1,0 +1,56 @@
+src/app:
+    - Auth: phân quyền người dùng
+    - components:
+        + icon: css
+        + MatxCustomizer
+        + MatxLayout
+            *Layout1
+           
+        + MatxSidenav
+        + MatxTheme: chọn màu cho các ô
+            *SecondarySidenavTheme
+            *SidenavTheme
+        + MatxVerticalNav: ẩn hiện cái cột chức năng
+        + NotificationBar: thông báo
+        + SecondarySideBar: chatbox
+
+        + Brand: Chức năng
+        + Breadcrumb: Thanh tiêu đề
+        + ChatAvatar-ChatBox-ChatHead-ConfirmationDialog: Cuộc nói chuyện , trạng thái onl
+        + Footer: cuối trang web
+        + Loadable:??
+        + MatxLoading: 
+
+
+
+
+
+
+
+
+
+    - contexts + hooks:    
+        + hooks: lấy dữ liệu từ contexts: Hàm useAuth này được sử dụng để lấy dữ liệu trong AuthContext bên trong 
+        các thành phần được bao bọc bởi AuthProvider. Hàm này giúp ta tránh việc truyền dữ liệu qua lại giữa các thành phần để 
+        quản lý trạng thái xác thực người dùng
+
+    - utils: định danh 1 số chức năng trang web như view, thiết bị sửu dụng,...
+    - view:
+        + dashboard: là của trang dashboard/default
+        + charts/echarts: là trang charts/echarts
+        + material-kit: là của trang material/autocomplete(button,.....)
+        + session: của trang login/logout,...
+
+src/fake-db: dữ liệu
+
+./src/auth: 
+
+
+
+
+
+
+
+components/MatxTheme: CSS của cả trang
+
+

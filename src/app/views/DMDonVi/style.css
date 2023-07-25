@@ -1,0 +1,38 @@
+.free {
+    font-family: sans-serif;
+    width: 300px;
+    border: solid 3px gainsboro;
+    height: 800px;
+    overflow: scroll;
+  }
+  
+  .displayName {
+    font-size: 1rem;
+  }
+  
+  .TreeNode {
+    font-size: 1rem;
+  }
+  
+  .TreeNode:hover {
+    background-color: #873ca033;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .TreeNodde .TreeNodeToolBar {
+    background-color: gray;
+  }
+  
+  .TreeNodde .editingName {
+    background-color: blue;
+  }
+  
+  .displayName:hover {
+    color: black;
+  }
+  
+  .FolderTree {
+    overflow: auto;
+  }
+  
